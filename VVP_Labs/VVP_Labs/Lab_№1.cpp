@@ -1,7 +1,12 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 int main()
 {
-	cout << "Hello world"; // Тест
+	string Name;
+	cout << "Hello user \n What is your name? \n"; // Тест
+	cin >> Name;
+	cout << "I glad to see you, " << Name;
+	
 }
