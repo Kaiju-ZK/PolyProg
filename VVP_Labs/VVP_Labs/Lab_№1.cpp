@@ -1,11 +1,11 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 
 using namespace std;
 int main()
 {
 	string Name;
-	cout << "Hello user \n What is your name? \n"; // Òåñò
+	cout << "Hello user \n What is your name? \n"; // Ð¢ÐµÑÑ‚
 	cin >> Name;
 	cout << "I glad to see you, " << Name;
 	
