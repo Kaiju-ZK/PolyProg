@@ -24,11 +24,5 @@
     <ClCompile Include="Ex3.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="Ex4.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex5.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
