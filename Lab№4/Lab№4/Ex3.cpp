@@ -9,10 +9,10 @@ using namespace std;
 
 int main()
 {
-	float A, B, C;
+	float a, b;
 	SetConsoleOutputCP(CP_UTF8);
-	cout << "Введите координаты точек A, B и C в той же последовательности: ";
-	cin >> A >> B >> C;
-	cout << "\n Длина отрезка AC = " << abs(C - A) << "\n Длина отрезка BC = " << abs(C - B) << "\n AC + BC = " << abs(C - B) + abs(C - A);
+	cout << "Введите два числа: ";
+	cin >> a >> b;
+	cout << "\n Среднее арифметическое чисел = " << (a+b)/2;
 	return 0;
 }

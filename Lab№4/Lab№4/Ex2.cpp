@@ -13,6 +13,6 @@ int main()
 	SetConsoleOutputCP(CP_UTF8);
 	cout << "Введите d окружности: ";
 	cin >> d;
-	cout << "\n Площадь прямоугольника = " << d * 3.14;
+	cout << "\n Длина окружности = " << d * 3.14;
 	return 0;
 }
