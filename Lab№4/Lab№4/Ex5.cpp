@@ -3,13 +3,16 @@
 #include<assert.h>
 #include<algorithm>
 #include<string>
+#include <windows.h>
+
 using namespace std;
 
 int main()
 {
 	float a, b;
-	setlocale(LC_ALL, "Rus");
+	SetConsoleOutputCP(CP_UTF8);
 	cout << "Введите a и b, стороны прямоугольника: ";
 	cin >> a >> b;
 	cout << "\n Сумма = " << abs(a) + abs(b) << "\n Разность = " << abs(a) - abs(b) << "\n Произведение = " << abs(a) * abs(b) << "\n Частное = " << abs(a) / abs(b);
+	return 0;
 }
