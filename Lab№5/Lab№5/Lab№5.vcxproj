@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ex1.cpp" />
+    <ClCompile Include="Ex2.cpp" />
+    <ClCompile Include="Ex3.cpp" />
+    <ClCompile Include="Ex4.cpp" />
+    <ClCompile Include="Ex5.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,13 +145,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Ex3.cpp" />
-    <ClCompile Include="Ex1.cpp" />
-    <ClCompile Include="Ex2.cpp" />
-    <ClCompile Include="Ex4.cpp" />
-    <ClCompile Include="Ex5.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

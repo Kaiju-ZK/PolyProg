@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ex1.cpp">
+    <ClCompile Include="Ex5.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="Ex2.cpp">
@@ -27,7 +27,7 @@
     <ClCompile Include="Ex4.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="Ex5.cpp">
+    <ClCompile Include="Ex1.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
