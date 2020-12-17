@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<vector>
 #include<assert.h>
 #include<algorithm>
@@ -11,8 +11,8 @@ int main()
 {
 	float a, b;
 	SetConsoleOutputCP(CP_UTF8);
-	cout << "Ââåäèòå äâà ÷èñëà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°: ";
 	cin >> a >> b;
-	cout << "\n Ñóììà = " << abs(a) + abs(b) << "\n Ðàçíîñòü = " << abs(a) - abs(b) << "\n Ïðîèçâåäåíèå = " << abs(a) * abs(b) << "\n ×àñòíîå = " << abs(a) / abs(b);
+	cout << "\n Ð¡ÑƒÐ¼Ð¼Ð° = " << abs(a) + abs(b) << "\n Ð Ð°Ð·Ð½Ð¾ÑÑ‚ÑŒ = " << abs(a) - abs(b) << "\n ÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ = " << abs(a) * abs(b) << "\n Ð§Ð°ÑÑ‚Ð½Ð¾Ðµ = " << abs(a) / abs(b);
 	return 0;
 }
