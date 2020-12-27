@@ -8,9 +8,13 @@ using namespace std;
 
 int main()
 {
-	float A, B, C;
+	long double A, temp;
 	SetConsoleOutputCP(CP_UTF8);
-	cout << "Введите координаты точек A, B и C в той же последовательности: ";
-	cin >> A >> B >> C;
-	cout << "\n Длина отрезка AC = " << abs(C - A) << "\n Длина отрезка BC = " << abs(C - B) << "\n AC + BC = " << abs(C - B) + abs(C - A);
+	cout << "Введите переменную A: ";
+	cin >> A;
+	A = A * A; //A = A * A;
+	A = A * A; //A = A * A;
+	A = A * A; //temp = A; A = A * temp;
+	cout.precision(0);
+	cout << "\n A^8 = " << fixed << A; // А зачем нам вспомогательная переменная???
 }

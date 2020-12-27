@@ -8,11 +8,17 @@ using namespace std;
 
 int main()
 {
-	float x1, x2, y1, y2;
+	long double A, t1, t2;
 	SetConsoleOutputCP(CP_UTF8);
-	cout << "Введите координаты x и y для первой точки: ";
-	cin >> x1 >> y1;
-	cout << "Введите координаты x и y для второй точки: ";
-	cin >> x2 >> y2;
-	cout << "\n Расстояние между точками = " << (sqrt(pow((x1-x2),2) + pow((y1-y2),2)));
+	cout << "Введите переменную A: ";
+	cin >> A;
+	t1 = A;
+	A = A * A;
+	A = A * A;
+	A = A * t1;
+	t2 = A;
+	A = A * A;
+	A = A * t2;
+	cout.precision(0);
+	cout << "\n A^15 = " << fixed << A; // А зачем нам вспомогательная переменная???
 }

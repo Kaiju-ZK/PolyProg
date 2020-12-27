@@ -8,12 +8,13 @@ using namespace std;
 
 int main()
 {
-	float A, B, C;
+	float A, B, C, temp;
 	SetConsoleOutputCP(CP_UTF8);
-	cout << "Введите координаты точек A, B и C (должна находиться между A и B) в той же последовательности: ";
+	cout << "Введите переменные A, B и C: ";
 	cin >> A >> B >> C;
-	if ((A < C && C < B) || (A > C && C > B))
-		cout << "\n AC * BC = " << abs(C - B) * abs(C - A);
-	else
-		cout << "\nERROR";
+	temp = A;
+	A = B;
+	B = C;
+	C = temp;
+	cout << "\n A = " << A << "\n B = " << B << "\n C = " << C;
 }

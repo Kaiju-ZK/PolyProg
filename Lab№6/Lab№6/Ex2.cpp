@@ -8,9 +8,13 @@ using namespace std;
 
 int main()
 {
-	float A, B, C;
+	float A, B, C, temp;
 	SetConsoleOutputCP(CP_UTF8);
-	cout << "Введите координаты точек A, B и C в той же последовательности: ";
+	cout << "Введите переменные A, B и C: ";
 	cin >> A >> B >> C;
-	cout << "\n Длина отрезка AC = " << abs(C - A) << "\n Длина отрезка BC = " << abs(C - B) << "\n AC + BC = " << abs(C - B) + abs(C - A);
+	temp = B;
+	B = A;
+	A = C;
+	C = temp;
+	cout << "\n A = " << A << "\n B = " << B << "\n C = " << C;
 }

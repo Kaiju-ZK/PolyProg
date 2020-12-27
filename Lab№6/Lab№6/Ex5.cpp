@@ -8,22 +8,11 @@ using namespace std;
 
 int main()
 {
-	float x1, x2, y1, y2, x3, y3, a, b, c;
+	float x;
 	SetConsoleOutputCP(CP_UTF8);
-	cout << "Введите координаты x и y для первой вершину: ";
-	cin >> x1 >> y1;
-	cout << "Введите координаты x и y для второй вершину: ";
-	cin >> x2 >> y2;
-	cout << "Введите координаты x и y для третьей вершину: ";
-	cin >> x3 >> y3;
-	a = (sqrt(pow((x1 - x2), 2) + pow((y1 - y2), 2)));
-	b = (sqrt(pow((x1 - x3), 2) + pow((y1 - y3), 2)));
-	c = (sqrt(pow((x3 - x2), 2) + pow((y3 - y2), 2)));
-	cout << "\n" << a << "\n" << b << "\n" << c;
-	if ((x1 == x2 && x2 == x3) || (y1 == y2 && y2 == y3))
-		cout << "ERROR";
-	else
-		cout << "\n Периметр треугольника = " << a + b + c << "\n Площадь треугольника = " << sqrt((a + b + c)/2 * ((a + b + c) / 2 - c) * ((a + b + c) / 2 - b) * ((a + b + c) / 2 - a));
-	
-		
+	cout << "Введите x: ";
+	cin >> x;
+	x = x - 3;
+	cout.precision(0);
+	cout << "4*(x-3)^6 - 7*(x-3)^3 + 2 = " << fixed << 4 * pow(x, 6) - 7 * pow(x, 3) + 2;
 }

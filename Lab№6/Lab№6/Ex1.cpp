@@ -8,11 +8,12 @@ using namespace std;
 
 int main()
 {
-	float x1, x2, y1, y2;
+	float A, B, temp;
 	SetConsoleOutputCP(CP_UTF8);
-	cout << "Введите координаты x и y для первой точки: ";
-	cin >> x1 >> y1;
-	cout << "Введите координаты x и y для второй точки: ";
-	cin >> x2 >> y2;
-	cout << "\n Расстояние между точками = " << (sqrt(pow((x1-x2),2) + pow((y1-y2),2)));
+	cout << "Введите переменные A и B: ";
+	cin >> A >> B;
+	temp = A;
+	A = B;
+	B = temp;
+	cout << "\n A = " << A << "\n B = " << B;
 }

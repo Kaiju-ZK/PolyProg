@@ -8,11 +8,10 @@ using namespace std;
 
 int main()
 {
-	float x1, x2, y1, y2;
+	float x;
 	SetConsoleOutputCP(CP_UTF8);
-	cout << "Введите координаты x и y для первой точки: ";
-	cin >> x1 >> y1;
-	cout << "Введите координаты x и y для второй точки: ";
-	cin >> x2 >> y2;
-	cout << "\n Периметр прямоугольника = " << 2*(abs(x1-x2) + abs(y1-y2)) << "\n Площадь прямоугольника = " << abs(x1 - x2) * abs(y1 - y2);
+	cout << "Введите x: ";
+	cin >> x;
+	cout.precision(0);
+	cout << "3*x^6 - 6*x^2 - 7 = " << fixed << 3 * pow(x, 6) - 6 * pow(x, 2) - 7;
 }
