@@ -22,5 +22,5 @@ int main()
 		Z = Z + AT;
 		AT *= (-A);
 	}
-	cout << "\n1+A^2+A^3...+A^N = " << Z;
+	cout << "\n1-A^2+A^3...±A^N = " << Z;
 }
