@@ -10,7 +10,7 @@ int main()
 {
 	int A, B, C;
 	SetConsoleOutputCP(CP_UTF8);
-	cout << "Введите две переменные A, B и C: ";
+	cout << "Введите три переменные A, B и C: ";
 	cin >> A >> B >> C;
 	if (A + B >= B + C && A + B >= A + C)
 		cout << "\nA + B = " << A + B;
